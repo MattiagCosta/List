@@ -55,14 +55,14 @@ function AppendListItem(listId, textItem){
 	}
 
 	let item = document.createElement("li");
-	item.id = listId + "-" + list.children.length;
-	item.textContent = textItem;
-
 	buddy = list.querySelector("#" + listId + "-buddy");
+	item.textContent = textItem;
 	if(buddy){
+		item.id = listId + "-" + (list.children.length - 1);
 		list.insertBefore(item, buddy);
 	}
 	else{
+		item.id = listId + "-" + list.children.length;
 		list.appendChild(item);
 	}
 

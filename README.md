@@ -108,9 +108,9 @@ Sorts the list items (excluding the buddy) numerically or lexicographically.
 
 Authors: MGC
 
-Version: 1.0.0
+Version: 1.0.1
 
-Dated: 2025-06-12
+Dated: 2025-06-15
 
 ### Licence
 
